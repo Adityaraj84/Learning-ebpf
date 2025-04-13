@@ -1,5 +1,6 @@
 ## What is ebpf ?
 eBPF is a revolutionary technology with origins in the Linux kernel that can run sandboxed programs(user defined program that can safely run inside the linux kernel) in a privileged context such as the operating system kernel. It is used to safely and efficiently extend the capabilities of the kernel without requiring to change kernel source code or load kernel modules.
+Today, eBPF is used extensively to drive a wide variety of use cases: Providing high-performance networking and load-balancing in modern data centers and cloud native environments, extracting fine-grained security observability data at low overhead, helping application developers trace applications, providing insights for performance troubleshooting, preventive application and container runtime security enforcement, and much more. 
 ![Image](https://github.com/user-attachments/assets/cd7d6e2a-1ab0-4760-87b7-095211a57eab)
 ## ebpf kernel Runtime 
 The core engine that run your ebpf program in the Linux kernel.
