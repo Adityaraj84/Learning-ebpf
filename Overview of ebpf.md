@@ -18,3 +18,5 @@ Hash(key value store), array(simple indexed base array), stack/queue (FIFO OR LI
 eBPF programs don’t run all the time — they only run when something specific happens, like an “event”. or
 A hook point(A specific event location like sysclall, Network etc.) spot in the system where an event can be detected, and your eBPF code can be triggered.
 ### Pre-defined hooks include system calls, function entry/exit, kernel tracepoints, network events, and several others
+
+![Image](https://github.com/user-attachments/assets/fe2b2ed4-1d38-4960-93ae-c9d44fdd8484)
