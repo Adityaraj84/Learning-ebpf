@@ -10,3 +10,5 @@ JIT(Just-in-Time Compiler ) Convert ebpf bytecode(when you write an ebpf program
 ## Maps 
 shared memory structure used to communicate between ebpf(kernel) program and user-space. 
 why !? = ebpf runs inside the kernel and can't print, log, or interact directly with user.
+## Types of ebpf Maps
+Hash(key value store), array(simple indexed base array), stack/queue (FIFO OR LIFO data structure).
