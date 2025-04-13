@@ -16,5 +16,5 @@ why !? = ebpf runs inside the kernel and can't print, log, or interact directly 
 Hash(key value store), array(simple indexed base array), stack/queue (FIFO OR LIFO data structure).
 ## Overview of Hook
 eBPF programs don’t run all the time — they only run when something specific happens, like an “event”. or
-A hook point is a spot in the system where an event can be detected, and your eBPF code can be triggered.
+A hook point(A specific event location like sysclall, Network etc.) spot in the system where an event can be detected, and your eBPF code can be triggered.
 ### Pre-defined hooks include system calls, function entry/exit, kernel tracepoints, network events, and several others
