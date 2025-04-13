@@ -20,3 +20,4 @@ A hook point(A specific event location like sysclall, Network etc.) spot in the 
 ### Pre-defined hooks include system calls, function entry/exit, kernel tracepoints, network events, and several others
 
 ![Image](https://github.com/user-attachments/assets/fe2b2ed4-1d38-4960-93ae-c9d44fdd8484)
+If a predefined hook does not exist for a particular need, it is possible to create a kernel probe (kprobe) or user probe (uprobe) to attach eBPF programs almost anywhere in kernel or user applications.
