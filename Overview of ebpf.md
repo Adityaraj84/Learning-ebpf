@@ -39,3 +39,4 @@ The verification step ensures that the eBPF program is safe to run. It validates
 1. The process loading the eBPF program holds the required capabilities (privileges). Unless unprivileged eBPF is enabled, only privileged processes can load eBPF programs.
 2. The program does not crash or otherwise harm the system.
 3. The program always runs to completion (i.e. the program does not sit in a loop forever, holding up further processing).
+![Image](https://github.com/user-attachments/assets/d2b6d8e6-3149-4952-9bb5-970a994ef08c)
