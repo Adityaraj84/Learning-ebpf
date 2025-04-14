@@ -30,3 +30,4 @@ The Linux kernel expects eBPF programs to be loaded in the form of bytecode.
 While it is of course possible to write bytecode directly, the more common development practice is to leverage a compiler suite like LLVM to compile pseudo-C code into eBPF bytecode.
 ## what is Loader ?
 When the desired hook has been identified, the eBPF program can be loaded into the Linux kernel using the bpf system call. This is typically done using one of the available eBPF libraries.
+## Architecture of Loader 
