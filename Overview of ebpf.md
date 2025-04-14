@@ -31,3 +31,4 @@ While it is of course possible to write bytecode directly, the more common devel
 ## what is Loader ?
 When the desired hook has been identified, the eBPF program can be loaded into the Linux kernel using the bpf system call. This is typically done using one of the available eBPF libraries.
 ## Architecture of Loader 
+![Image](https://github.com/user-attachments/assets/3d048b33-7abe-4834-b408-6133a7478a9f)
