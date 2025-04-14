@@ -23,3 +23,4 @@ A hook point(A specific event location like sysclall, Network etc.) spot in the 
 
 ### If a predefined hook does not exist for a particular need, it is possible to create a kernel probe (kprobe) or user probe (uprobe) to attach eBPF programs almost anywhere in kernel or user applications.
 ![Image](https://github.com/user-attachments/assets/eb781274-525d-4039-9bbb-dd8d7d59ed00)
+## How are eBPF programs written?
