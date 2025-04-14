@@ -25,3 +25,5 @@ A hook point(A specific event location like sysclall, Network etc.) spot in the 
 ![Image](https://github.com/user-attachments/assets/eb781274-525d-4039-9bbb-dd8d7d59ed00)
 ## How are eBPF programs written?
 ![Image](https://github.com/user-attachments/assets/ba13daa1-3bca-43f2-b3a0-15057fd9ac8b)
+The Linux kernel expects eBPF programs to be loaded in the form of bytecode.
+While it is of course possible to write bytecode directly, the more common development practice is to leverage a compiler suite like LLVM to compile pseudo-C code into eBPF bytecode.
