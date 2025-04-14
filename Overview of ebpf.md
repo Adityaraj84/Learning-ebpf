@@ -42,6 +42,7 @@ The verification step ensures that the eBPF program is safe to run. It validates
 ![Image](https://github.com/user-attachments/assets/d2b6d8e6-3149-4952-9bb5-970a994ef08c)
 ## ebpf Maps
 A vital aspect of eBPF programs is the ability to share collected information and to store state. For this purpose, eBPF programs can leverage the concept of eBPF maps to store and retrieve data in a wide set of data structures. eBPF maps can be accessed from eBPF programs as well as from applications in user space via a system call.
+![Image](https://github.com/user-attachments/assets/b4869755-b13d-438d-8c93-de58aaac8825)
 Types of Maps:
 ### Hash tables, Arrays
 #### LRU (Least Recently Used)
